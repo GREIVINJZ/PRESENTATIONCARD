@@ -67,6 +67,9 @@ footer{
 
 .contact-links {
     display: flex;
+    overflow-wrap: break-word;
+    flex: 1 1 40%;
+    text-align: center;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
