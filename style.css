@@ -65,15 +65,18 @@ footer{
     text-align: center;
 }
 
-.contact-links {
+.contact-links{
     display: flex;
-    overflow-wrap: break-word;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contact-links a{
     flex: 1 1 40%;
     text-align: center;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    width: 100%;
+    overflow-wrap: break-word;
 }
 
 a{
